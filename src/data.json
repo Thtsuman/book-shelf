@@ -1,0 +1,39 @@
+{
+  "appName": "Book Shelf",
+  "version": "0.0.1",
+  "tools": ["react", "contextAPI"],
+  "books": [
+    {
+      "id": "1",
+      "name": "Disappearing Earth",
+      "author": "Julia Phillips",
+      "description": "In the first chapter of this assured debut novel, two young girls vanish, sending shock waves through a town perched on the edge of the remote, brooding Kamchatka Peninsula. What follows is a novel of overlapping short stories about the various women who have been affected by their disappearance. Each richly textured tale pushes the narrative forward another month and exposes the ways in which the women of Kamchatka have been shattered — personally, culturally and emotionally — by the crime.",
+      "picUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQl1ZWB2QnFHa1UwxgZDmk_zZwMGuW3iDhvFu133hQ1fmeVtpnD",
+      "tags": ["fiction"]
+    },
+    {
+      "id": "2",
+      "name": "The Topeka School",
+      "author": "Ben Lerner",
+      "description": "Lerner’s exhilarating third novel, after “Leaving the Atocha Station” and “10:04,”  rocks an emphatically American amplitude, ranging freely from parenthood to childhood, from toxic masculinity to the niceties of cunnilingus, from Freud’s Oedipus complex to Tupac’s “All Eyez on Me.” Adam Gordon returns as the protagonist, but this time as a high school debate star, and mostly in the third person. Equal portions of the book are given over to the voices of his psychologist parents, and to a former classmate whose cognitive deficits are the inverse of Adam’s gifts. The earlier novels’ questions about art and authenticity persist; but Adam’s faithlessness is now stretched into a symptom of a national crisis of belief. Lerner’s own arsenal has always included a composer’s feel for orchestration, a ventriloquist’s vocal range and a fine ethnographic attunement. Never before, though, has the latter been so joyously indulged, or the bubblicious texture of late Clintonism been so lovingly evoked.",
+      "picUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTw3b56LSSEIRdIhbmKHu6t23HodhMpcofJ_PfJWc43G4oa4sIH",
+      "tags": ["fiction"]
+    },
+    {
+      "id": "3",
+      "name": "Exhalation",
+      "author": "Ted Chiang",
+      "description": "Many of the nine deeply beautiful stories in this collection explore the material consequences of time travel. Reading them feels like sitting at dinner with a friend who explains scientific theory to you without an ounce of condescension. Each thoughtful, elegantly crafted story poses a philosophical question; Chiang curates all nine into a conversation that comes full circle, after having traversed remarkable terrain.",
+      "picUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Exhalation_-_Stories.jpg/220px-Exhalation_-_Stories.jpg",
+      "tags": ["fiction"]
+    },
+    {
+      "id": "4",
+      "name": "Lost Children Archive",
+      "author": "Valeria Luiselli",
+      "description": "The Mexican author’s third novel — her first to be written in English — unfolds against a backdrop of crisis: of children crossing borders, facing death, being detained, being deported unaccompanied by their guardians. The novel centers on a couple and their two children (all unnamed), who are taking a road trip from New York City to the Mexican border; the couple’s marriage is on the brink of collapse as they pursue independent ethnographic research projects and the woman tries to help a Mexican immigrant find her daughters, who’ve gone missing in their attempt to cross the border behind her. The brilliance of Luiselli’s writing stirs rage and pity, but what might one do after reading such a novel? Acutely sensitive to these misgivings, Luiselli has delivered a madly allusive, self-reflexive, experimental book, one that is as much about storytellers and storytelling as it is about lost children.",
+      "picUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNXvA0yIzIth3PFFKYnUsI7UnBqUPZHAITIe6i0ZC9Sc5q2KJo",
+      "tags": ["fiction"]
+    }
+  ]
+}
