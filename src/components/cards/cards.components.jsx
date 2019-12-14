@@ -1,13 +1,13 @@
 import React from "react";
 import Card from "../card/card.component";
-import { MyContext } from "../../context/bookContext";
+import { bookContext } from "../../context/bookContext";
 
 class Cards extends React.Component {
   render() {
     return (
       <React.Fragment>
         <div className="cards-section my-1 py-6 flex -mx-2 mx-auto flex-wrap">
-          <MyContext.Consumer>
+          <bookContext.Consumer>
             {({ state }) => (
               <React.Fragment>
                 {state.Data.books.map(book => (
@@ -15,7 +15,7 @@ class Cards extends React.Component {
                 ))}
               </React.Fragment>
             )}
-          </MyContext.Consumer>
+          </bookContext.Consumer>
         </div>
       </React.Fragment>
     );

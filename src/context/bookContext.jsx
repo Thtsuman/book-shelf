@@ -1,7 +1,7 @@
 import React from "react";
 import DATA from "../data.json";
 
-export const MyContext = React.createContext();
+export const bookContext = React.createContext();
 
 class BookProvider extends React.Component {
   state = {
@@ -10,14 +10,13 @@ class BookProvider extends React.Component {
 
   render() {
     return (
-      <MyContext.Provider
+      <bookContext.Provider
         value={{
           state: this.state
         }}
       >
-        {console.log(this.state)}
         {this.props.children}
-      </MyContext.Provider>
+      </bookContext.Provider>
     );
   }
 }
